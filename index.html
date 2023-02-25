@@ -1,3 +1,35 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@WhiteCrosstheRiver 
+chrissy-dev
+/
+protected-github-pages
+Public
+Fork your own copy of chrissy-dev/protected-github-pages
+Code
+Issues
+1
+Pull requests
+2
+Actions
+Projects
+Security
+Insights
+protected-github-pages/index.html
+@regevbr
+regevbr fix the functionality no longer works #2
+Latest commit 424d41a on Sep 5, 2019
+ History
+ 2 contributors
+@chrissy-dev@regevbr
+146 lines (130 sloc)  5.16 KB
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
@@ -102,11 +134,11 @@
         <script type="text/javascript">
             "use strict"
             var button = document.querySelectorAll('[data-id="button"]')
-            var password = document.querySelectorAll('[data-id="password"]') 
+            var password = document.querySelectorAll('[data-id="password"]')
 
             function login(secret) {
                 var hash = sha1(secret)
-                var url = hash + "\index.html"
+                var url = hash + "/index.html"
                 var alert = document.querySelectorAll('[data-id="alert"]')
 
                 var request = new XMLHttpRequest()
@@ -144,3 +176,18 @@
         </script>
     </body>
 </html>
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+protected-github-pages/index.html at master · chrissy-dev/protected-github-pages
